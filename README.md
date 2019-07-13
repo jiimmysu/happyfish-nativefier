@@ -7,9 +7,9 @@ https://blog.user.today/electron-happyfish-flash-blocked/
 ## 0.Find the newest Adobe Flash Player version number.
 Type this `chrome://components/` in the address bar of Google Chrome.
 
-## 1.Copy this Project, run npm .
-git clone https://github.com/jiimmysu/happyfish-nativefier.git
-npm install
+## 1.Copy this Project, and run npm.
+- `git clone https://github.com/jiimmysu/happyfish-nativefier.git`
+- `npm install`
 
 ## 2.Use the command below to generate mac application.
 `nativefier --name "開心水族箱" "https://apps.facebook.com/happyfishbowl/?fb_source=bookmark_favorites&ref=bookmarks&count=0&fb_bmpos=_0" --flash --flash-path "/Users/XXXX/Library/Application Support/Google/Chrome/PepperFlash/32.0.0.223/PepperFlashPlayer.plugin" --inject ./style.css --icon ./icon.png`
