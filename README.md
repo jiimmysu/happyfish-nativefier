@@ -1,6 +1,6 @@
 # happyfish-nativefier(for MacOS)
-- Problem: Enable the Flash setting of browser when you everyday play happyfish Facebook desktop flash game.
-- Solve: Use nativefier to package the Facebook game url and build a mac application to prevent this problem. 
+- Problem: I must enable the Flash setting of browser when I play happyfish Facebook desktop flash game everyday.
+- Solution: Use nativefier to package the Facebook game url and build a mac application to prevent this problem. 
 
 https://blog.user.today/electron-happyfish-flash-blocked/
 
