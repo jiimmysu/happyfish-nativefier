@@ -1,6 +1,7 @@
 # happyfish-nativefier(for MacOS)
-Problem: Enable the Flash setting of browser when you everyday play happyfish Facebook desktop flash game.
-Solve: Use nativefier to package the Facebook game url and build a mac application to prevent this problem. 
+- Problem: Enable the Flash setting of browser when you everyday play happyfish Facebook desktop flash game.
+- Solve: Use nativefier to package the Facebook game url and build a mac application to prevent this problem. 
+
 https://blog.user.today/electron-happyfish-flash-blocked/
 
 ## 1.Find the newest Adobe Flash Player version number.
@@ -11,5 +12,6 @@ Type this [chrome://components/](chrome://components/) in the address bar of Goo
 
 * Replace the username(XXXX) and Adobe Flash Player version(32.0.0.223) of your own.
 
-## 3.You will get a APP-darwin-x64 folder in your project folder.
-## 4.Drag APP.app into the "Application" folder.(You can find "Application" on the sidebar of Finder.)
+## 3.You will get an "APP-darwin-x64" folder in your project folder.
+## 4.Drag APP.app into the "Application" folder.
+You can find "Application" on the sidebar of Finder.
