@@ -1,6 +1,6 @@
 # happyfish-nativefier(for MacOS)
-- Problem: I must enable the Flash setting of browser when I play happyfish Facebook desktop flash game everyday.
-- Solution: Use nativefier to package the Facebook game url and build a mac application to prevent this problem. 
+- Problem: I must enable the Flash player setting of the browser everytime when I play Facebook desktop flash game "happyfish".
+- Solution: Use nativefier to package the Facebook game page url and build a MacOS application to prevent this problem. 
 
 https://blog.user.today/electron-happyfish-flash-blocked/
 
@@ -11,10 +11,10 @@ Type this `chrome://components/` in the address bar of Google Chrome.
 - `git clone https://github.com/jiimmysu/happyfish-nativefier.git`
 - `npm install`
 
-## 2.Use the command below to generate mac application.
-`nativefier --name "開心水族箱" "https://apps.facebook.com/happyfishbowl/?fb_source=bookmark_favorites&ref=bookmarks&count=0&fb_bmpos=_0" --flash --flash-path "/Users/XXXX/Library/Application Support/Google/Chrome/PepperFlash/32.0.0.255/PepperFlashPlayer.plugin" --inject ./style.css --icon ./icon.png`
+## 2.Use the command below to generate MacOS application.
+`nativefier --name "開心水族箱" "https://apps.facebook.com/happyfishbowl/?fb_source=bookmark_favorites&ref=bookmarks&count=0&fb_bmpos=_0" --flash --flash-path "/Users/XXXX/Library/Application Support/Google/Chrome/PepperFlash/32.0.0.270/PepperFlashPlayer.plugin" --inject ./style.css --icon ./icon.png`
 
-* Replace the username(XXXX) and Adobe Flash Player version(32.0.0.255) of your own.
+* Replace the username(XXXX) and Adobe Flash Player version(32.0.0.270) of your own.
 
 ## 3.You will get an "APP-darwin-x64" folder in your project folder.
 ## 4.Drag APP.app into the "Application" folder.
