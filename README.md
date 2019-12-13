@@ -14,7 +14,7 @@ Type this `chrome://components/` in the address bar of Google Chrome.
 ## 2.Use the command below to generate MacOS application.
 `nativefier --name "開心水族箱" "https://apps.facebook.com/happyfishbowl/?fb_source=bookmark_favorites&ref=bookmarks&count=0&fb_bmpos=_0" --flash --flash-path "/Users/XXXX/Library/Application Support/Google/Chrome/PepperFlash/32.0.0.293/PepperFlashPlayer.plugin" --inject ./style.css --icon ./icon.png`
 
-* Replace the username(XXXX) and Adobe Flash Player version(32.0.0.293) of your own.
+* Replace the username(XXXX) and Adobe Flash Player version(32.0.0.303) of your own.
 
 ## 3.You will get an "APP-darwin-x64" folder in your project folder.
 ## 4.Drag APP.app into the "Application" folder.
